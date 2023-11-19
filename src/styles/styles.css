@@ -1,0 +1,164 @@
+* {
+    margin : 0;
+    background-color : #D3D3D3;
+    font-family: roboto, arial, helvetica, sans-serif;
+}
+
+
+.imgBru{
+    float: left;
+    width: 50%; 
+    overflow: hidden;
+
+    
+
+}
+
+.title {
+    
+    float: right;
+    padding : 5rem;
+    margin-right: 1.7rem;
+    
+    
+    
+    
+}
+
+.divisao {
+    border : #1E90FF solid 1px; 
+    margin-top: 5rem;
+    
+
+}
+
+.subtitle {
+    text-align: center;
+    margin-right: 3rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    
+}
+
+
+.conteiner-nav {
+    text-align: center;
+   
+}
+
+nav li {
+    display: inline;
+    
+}
+nav a {
+    
+    text-decoration: none;
+    padding: 1rem ;
+    color: black;
+    transition: background-color 0.3s ease;
+
+}
+
+nav a:hover {
+    
+    background-color: #6495ED;
+}
+
+
+.main{
+
+    float: right;
+
+
+
+
+}
+
+.title-nav {
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.text-span{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 1rem;
+    line-height: 1.6;
+    margin: 20px;
+    font-family:  arial, helvetica, sans-serif;
+    
+}
+
+.tec-pc {
+    width: 18dvh;
+
+}
+
+.tec-1 {
+    text-align: center;
+
+}
+
+.contatos {
+    width: 40dvh;
+
+}
+
+.footer-port{
+    
+    text-align: center;
+}
+
+.footer-contatos{
+    padding:3rem;
+}
+
+.contatos1{
+    padding:5rem
+
+}
+
+ /* Adicionado media query para telas pequenas */
+@media (max-width: 768px) {
+    .imgBru {
+        width: 100%;
+    }
+
+    .title {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        padding: 1rem;
+    }
+
+    .divisao {
+        margin-top: 1rem;
+    }
+
+    .subtitle {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    nav a {
+        display: inline;
+        width: auto;
+    }
+
+    .main,
+    .tec-pc,
+    .contatos {
+        width: 100%;
+    }
+    nav a[href="#sobre"] {
+        display: block; /* Exibe "Sobre Mim" como bloco em telas pequenas */
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+    }
+}
